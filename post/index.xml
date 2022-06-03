@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on My New Hugo Site</title>
+        <link>https://farfar90.github.io/post/</link>
+        <description>Recent content in Posts on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 03 Jun 2022 13:11:45 +0800</lastBuildDate><atom:link href="https://farfar90.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>序言：个人博客的第一步</title>
+        <link>https://farfar90.github.io/post/myfirstblog/</link>
+        <pubDate>Fri, 03 Jun 2022 13:11:45 +0800</pubDate>
+        
+        <guid>https://farfar90.github.io/post/myfirstblog/</guid>
+        <description>&lt;h1 id=&#34;第一篇blog&#34;&gt;第一篇blog&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一篇测试使用的文档。测试的是md格式书写、本地hugo框架制作个人博客、git远程部署博客等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;关于blog&#34;&gt;关于blog&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;为什么会写blog&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;可以看成是又一次的心血来潮，起因是在B站刷到了程序羊UP主更新的关于博客搭建的萌新视频，而我本身算是计算机专业出来的，虽然目前从事的职业和大学时的专业几乎不搭边，但还是有一颗想编程的心。另外一个功利的目的是想为将来的简历增加一项可写的内容。最后，就是想通过输出倒逼输入，通过不断的练习来提高自己的技术水平。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;大概会写什么&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;基于别人的建议，才刚开始写博客的新手的我，准备写写当下学习的内容、心得，过程中碰到的困难以及怎么解决的。其次是把学习练习的项目整理出来，标准就是让别人可以通过我的文档能够把项目复现出来，当然这也是程序羊大佬说的。我个人也认为是很不错的一条标准，如果写出来的技术类文章，别人都学不来，在我看来不是自己学得不到家，就是表达能力还不够，恰恰这两项都是我想努力的方向。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;正在做的事以及长期目标&#34;&gt;正在做的事以及长期目标&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Java知识的学习&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当下是在学习关于Java的知识，当然知识框架是从好几位大佬那里白嫖的。目的是能进入Java行业工作，另一方面是想试一下自己的可能性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AirTest脚本的编写&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现在正在进行的项目是AirTest框架下的自动化测试脚本的编写，作用是把我正在玩的两款手游的日常任务给简化一下，算是不务正业了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Python知识的学习&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;关于Python的学习，这已经是一个持续了很久的想法了，刚好AirTest是基于Python的第三方框架，暂时就列入待办列表里吧。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我始终认为工作是为了更好的生活，即使我还没能做到，我也依旧愿意让自己前行的路上多一些好看的风景和好玩的事物。把每一个当下都用好一点点，不想一直紧盯着过去，又为将来而彷徨了，我只是个普通人罢了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Git安装：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1z34y1z7dQ?spm_id_from=333.788.top_right_bar_window_history.content.click&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《windows10系统安装git~Rstuido里使用git和github的参考资料》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;博客搭建：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1q4411i7gL?spm_id_from=333.337.top_right_bar_window_history.content.click&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='第一篇blog 这是一篇测试使用的文档。测试的是md格式书写、本地hugo框架制作个人博客、git远程部署博客等。
+关于blog 为什么会写blog
+可以看成是又一次的心血来潮，起因是在B站刷到了程序羊UP主更新的关于博客搭建的萌新视频，而我本身算是计算机专业出来的，虽然目前从事的职业和大学时的专业几乎不搭边，但还是有一颗想编程的心。另外一个功利的目的是想为将来的简历增加一项可写的内容。最后，就是想通过输出倒逼输入，通过不断的练习来提高自己的技术水平。
+大概会写什么
+基于别人的建议，才刚开始写博客的新手的我，准备写写当下学习的内容、心得，过程中碰到的困难以及怎么解决的。其次是把学习练习的项目整理出来，标准就是让别人可以通过我的文档能够把项目复现出来，当然这也是程序羊大佬说的。我个人也认为是很不错的一条标准，如果写出来的技术类文章，别人都学不来，在我看来不是自己学得不到家，就是表达能力还不够，恰恰这两项都是我想努力的方向。
+正在做的事以及长期目标 Java知识的学习
+当下是在学习关于Java的知识，当然知识框架是从好几位大佬那里白嫖的。目的是能进入Java行业工作，另一方面是想试一下自己的可能性。
+AirTest脚本的编写
+现在正在进行的项目是AirTest框架下的自动化测试脚本的编写，作用是把我正在玩的两款手游的日常任务给简化一下，算是不务正业了。
+Python知识的学习
+关于Python的学习，这已经是一个持续了很久的想法了，刚好AirTest是基于Python的第三方框架，暂时就列入待办列表里吧。
+目标
+我始终认为工作是为了更好的生活，即使我还没能做到，我也依旧愿意让自己前行的路上多一些好看的风景和好玩的事物。把每一个当下都用好一点点，不想一直紧盯着过去，又为将来而彷徨了，我只是个普通人罢了。
+参考资料 Git安装：《windows10系统安装git~Rstuido里使用git和github的参考资料》 博客搭建：《手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo》 '><title>序言：个人博客的第一步</title>
+
+<link rel='canonical' href='https://farfar90.github.io/post/myfirstblog/'>
+
+<link rel="stylesheet" href="/scss/style.min.d9e0562edde3d2bdf9d3d81365095a29d062ddaaa5d671f22168e57dfdb18b4f.css"><meta property='og:title' content='序言：个人博客的第一步'>
+<meta property='og:description' content='第一篇blog 这是一篇测试使用的文档。测试的是md格式书写、本地hugo框架制作个人博客、git远程部署博客等。
+关于blog 为什么会写blog
+可以看成是又一次的心血来潮，起因是在B站刷到了程序羊UP主更新的关于博客搭建的萌新视频，而我本身算是计算机专业出来的，虽然目前从事的职业和大学时的专业几乎不搭边，但还是有一颗想编程的心。另外一个功利的目的是想为将来的简历增加一项可写的内容。最后，就是想通过输出倒逼输入，通过不断的练习来提高自己的技术水平。
+大概会写什么
+基于别人的建议，才刚开始写博客的新手的我，准备写写当下学习的内容、心得，过程中碰到的困难以及怎么解决的。其次是把学习练习的项目整理出来，标准就是让别人可以通过我的文档能够把项目复现出来，当然这也是程序羊大佬说的。我个人也认为是很不错的一条标准，如果写出来的技术类文章，别人都学不来，在我看来不是自己学得不到家，就是表达能力还不够，恰恰这两项都是我想努力的方向。
+正在做的事以及长期目标 Java知识的学习
+当下是在学习关于Java的知识，当然知识框架是从好几位大佬那里白嫖的。目的是能进入Java行业工作，另一方面是想试一下自己的可能性。
+AirTest脚本的编写
+现在正在进行的项目是AirTest框架下的自动化测试脚本的编写，作用是把我正在玩的两款手游的日常任务给简化一下，算是不务正业了。
+Python知识的学习
+关于Python的学习，这已经是一个持续了很久的想法了，刚好AirTest是基于Python的第三方框架，暂时就列入待办列表里吧。
+目标
+我始终认为工作是为了更好的生活，即使我还没能做到，我也依旧愿意让自己前行的路上多一些好看的风景和好玩的事物。把每一个当下都用好一点点，不想一直紧盯着过去，又为将来而彷徨了，我只是个普通人罢了。
+参考资料 Git安装：《windows10系统安装git~Rstuido里使用git和github的参考资料》 博客搭建：《手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo》 '>
+<meta property='og:url' content='https://farfar90.github.io/post/myfirstblog/'>
+<meta property='og:site_name' content='My New Hugo Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-06-03T13:11:45&#43;08:00'/><meta property='article:modified_time' content='2022-06-03T13:11:45&#43;08:00'/>
+<meta name="twitter:title" content="序言：个人博客的第一步">
+<meta name="twitter:description" content="第一篇blog 这是一篇测试使用的文档。测试的是md格式书写、本地hugo框架制作个人博客、git远程部署博客等。
+关于blog 为什么会写blog
+可以看成是又一次的心血来潮，起因是在B站刷到了程序羊UP主更新的关于博客搭建的萌新视频，而我本身算是计算机专业出来的，虽然目前从事的职业和大学时的专业几乎不搭边，但还是有一颗想编程的心。另外一个功利的目的是想为将来的简历增加一项可写的内容。最后，就是想通过输出倒逼输入，通过不断的练习来提高自己的技术水平。
+大概会写什么
+基于别人的建议，才刚开始写博客的新手的我，准备写写当下学习的内容、心得，过程中碰到的困难以及怎么解决的。其次是把学习练习的项目整理出来，标准就是让别人可以通过我的文档能够把项目复现出来，当然这也是程序羊大佬说的。我个人也认为是很不错的一条标准，如果写出来的技术类文章，别人都学不来，在我看来不是自己学得不到家，就是表达能力还不够，恰恰这两项都是我想努力的方向。
+正在做的事以及长期目标 Java知识的学习
+当下是在学习关于Java的知识，当然知识框架是从好几位大佬那里白嫖的。目的是能进入Java行业工作，另一方面是想试一下自己的可能性。
+AirTest脚本的编写
+现在正在进行的项目是AirTest框架下的自动化测试脚本的编写，作用是把我正在玩的两款手游的日常任务给简化一下，算是不务正业了。
+Python知识的学习
+关于Python的学习，这已经是一个持续了很久的想法了，刚好AirTest是基于Python的第三方框架，暂时就列入待办列表里吧。
+目标
+我始终认为工作是为了更好的生活，即使我还没能做到，我也依旧愿意让自己前行的路上多一些好看的风景和好玩的事物。把每一个当下都用好一点点，不想一直紧盯着过去，又为将来而彷徨了，我只是个普通人罢了。
+参考资料 Git安装：《windows10系统安装git~Rstuido里使用git和github的参考资料》 博客搭建：《手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo》 ">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huda2458f72ce188392d75c5d51cd8e24e_373_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">My New Hugo Site</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/myfirstblog/">序言：个人博客的第一步</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 03, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="第一篇blog">第一篇blog</h1>
+<blockquote>
+<p>这是一篇测试使用的文档。测试的是md格式书写、本地hugo框架制作个人博客、git远程部署博客等。</p>
+</blockquote>
+<h3 id="关于blog">关于blog</h3>
+<ul>
+<li>
+<p><strong>为什么会写blog</strong></p>
+<p>可以看成是又一次的心血来潮，起因是在B站刷到了程序羊UP主更新的关于博客搭建的萌新视频，而我本身算是计算机专业出来的，虽然目前从事的职业和大学时的专业几乎不搭边，但还是有一颗想编程的心。另外一个功利的目的是想为将来的简历增加一项可写的内容。最后，就是想通过输出倒逼输入，通过不断的练习来提高自己的技术水平。</p>
+</li>
+<li>
+<p><strong>大概会写什么</strong></p>
+<p>基于别人的建议，才刚开始写博客的新手的我，准备写写当下学习的内容、心得，过程中碰到的困难以及怎么解决的。其次是把学习练习的项目整理出来，标准就是让别人可以通过我的文档能够把项目复现出来，当然这也是程序羊大佬说的。我个人也认为是很不错的一条标准，如果写出来的技术类文章，别人都学不来，在我看来不是自己学得不到家，就是表达能力还不够，恰恰这两项都是我想努力的方向。</p>
+</li>
+</ul>
+<h3 id="正在做的事以及长期目标">正在做的事以及长期目标</h3>
+<ul>
+<li>
+<p><strong>Java知识的学习</strong></p>
+<p>当下是在学习关于Java的知识，当然知识框架是从好几位大佬那里白嫖的。目的是能进入Java行业工作，另一方面是想试一下自己的可能性。</p>
+</li>
+<li>
+<p><strong>AirTest脚本的编写</strong></p>
+<p>现在正在进行的项目是AirTest框架下的自动化测试脚本的编写，作用是把我正在玩的两款手游的日常任务给简化一下，算是不务正业了。</p>
+</li>
+<li>
+<p><strong>Python知识的学习</strong></p>
+<p>关于Python的学习，这已经是一个持续了很久的想法了，刚好AirTest是基于Python的第三方框架，暂时就列入待办列表里吧。</p>
+</li>
+<li>
+<p><strong>目标</strong></p>
+<p>我始终认为工作是为了更好的生活，即使我还没能做到，我也依旧愿意让自己前行的路上多一些好看的风景和好玩的事物。把每一个当下都用好一点点，不想一直紧盯着过去，又为将来而彷徨了，我只是个普通人罢了。</p>
+</li>
+</ul>
+<h2 id="参考资料">参考资料</h2>
+<ul>
+<li>Git安装：<a class="link" href="https://www.bilibili.com/video/BV1z34y1z7dQ?spm_id_from=333.788.top_right_bar_window_history.content.click"  target="_blank" rel="noopener"
+    >《windows10系统安装git~Rstuido里使用git和github的参考资料》</a></li>
+<li>博客搭建：<a class="link" href="https://www.bilibili.com/video/BV1q4411i7gL?spm_id_from=333.337.top_right_bar_window_history.content.click"  target="_blank" rel="noopener"
+    >《手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo》</a></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2022 My New Hugo Site
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
