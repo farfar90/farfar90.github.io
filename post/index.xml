@@ -6,7 +6,268 @@
         <description>Recent content in Posts on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 03 Jun 2022 13:11:45 +0800</lastBuildDate><atom:link href="https://farfar90.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Jun 2022 18:58:30 +0800</lastBuildDate><atom:link href="https://farfar90.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>快速使用：MarkDown</title>
+        <link>https://farfar90.github.io/post/ql_markdown/</link>
+        <pubDate>Tue, 07 Jun 2022 18:58:30 +0800</pubDate>
+        
+        <guid>https://farfar90.github.io/post/ql_markdown/</guid>
+        <description>&lt;h1 id=&#34;markdown元素分类&#34;&gt;MarkDown元素分类&lt;/h1&gt;
+&lt;p&gt;MarkDown元素分为两类，块级元素和行内元素。块级元素至少占据一行，也可以占据多行；行内元素只占据自身所需要的空间，不满一行，后面还可以有其他元素。&lt;/p&gt;
+&lt;h2 id=&#34;块级元素&#34;&gt;块级元素&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;标题&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：标题分为六级，使用#号标记，依次增加个数，最多六个&lt;/li&gt;
+&lt;li&gt;使用：# [标题]&lt;/li&gt;
+&lt;li&gt;演示效果：待更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;引用&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：引用时使用&lt;/li&gt;
+&lt;li&gt;使用：&amp;gt; [文本]&lt;/li&gt;
+&lt;li&gt;演示效果：待更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;列表&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;有序列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：使用数字为标识的列表，数字加句号,再加上空格&lt;/li&gt;
+&lt;li&gt;使用：1. 有序列表&lt;/li&gt;
+&lt;li&gt;演示效果：待更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;无序列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：使用-号标记，也可以使用*号标记，加空格；无序列表一共可以分成三级，使用Tab键缩进以改变级数&lt;/li&gt;
+&lt;li&gt;使用：- 无序列表&lt;/li&gt;
+&lt;li&gt;演示效果：待更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;任务列表&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;描述：带有可选择项的列表，可以勾选，可以在缩进里使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;未勾选：&lt;code&gt;-[ ]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;勾选：&lt;code&gt;-[x]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;演示效果：待更新&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;代码块&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：可以保留源代码风格&lt;/li&gt;
+&lt;li&gt;使用：以三个`开始，可以加上程序语言名称，指定快内容对应的程序语言，以```结束&lt;/li&gt;
+&lt;li&gt;演示效果：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;java &lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;int a = 6;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 6&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;数学公式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：书写公式时使用&lt;/li&gt;
+&lt;li&gt;使用：以$$开始，以$$结束&lt;/li&gt;
+&lt;li&gt;问题：hugo上使用存在问题，待解决&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;表格&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：用于快速制作表格&lt;/li&gt;
+&lt;li&gt;使用：
+&lt;ul&gt;
+&lt;li&gt;表格表头：|姓名|性别|年龄|&lt;/li&gt;
+&lt;li&gt;表格第二行：|:-|-:|:-:|，冒号规定对齐方式&lt;/li&gt;
+&lt;li&gt;表格内容：|张三|男|18|，按照表头依次填写即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;演示效果：待更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;脚注&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：为内容添加脚注，可以实现跳转到文末解释，可用于参考文献或解释&lt;/li&gt;
+&lt;li&gt;使用：
+&lt;ul&gt;
+&lt;li&gt;文内：使用[]包括，内容以^起头，内容可填写为解释的词语，&lt;code&gt;[^脚注]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;脚注解释：&lt;code&gt;[^脚注]:&amp;quot;解释内容&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;演示效果：脚注[^脚注]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;分割线&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：分割文章内容&lt;/li&gt;
+&lt;li&gt;使用：&lt;code&gt;---&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用效果：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;行内元素&#34;&gt;行内元素&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;斜体&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用：以前后各一个*号包括需要斜体的内容&lt;/li&gt;
+&lt;li&gt;快捷方式：&lt;code&gt;ctrl+i&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;演示效果：&lt;em&gt;斜体&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;加粗&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用：前后各两个*号包括需要加粗的内容&lt;/li&gt;
+&lt;li&gt;快捷按键：&lt;code&gt;ctrl + b&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;演示效果：&lt;strong&gt;加粗&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;行内代码块&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：可以保留源代码风格&lt;/li&gt;
+&lt;li&gt;使用：以一个`开头和结尾，中间填充内容&lt;/li&gt;
+&lt;li&gt;演示效果：&lt;code&gt;print()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;下划线&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用：&lt;code&gt;&amp;lt;h&amp;gt;内容&amp;lt;/h&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;快捷按钮：&lt;code&gt;ctrl + u&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;演示效果：&lt;!-- raw HTML omitted --&gt;下划线&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;国际通用表情&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用：&lt;code&gt;:smile:&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;演示效果：:smile:&lt;/li&gt;
+&lt;li&gt;可参考：
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/rxaviers/7360908&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;表情符号简码列表&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;链接&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用：&lt;code&gt;[文本内容](链接[空格分隔]&amp;quot;鼠标悬停显示的标题&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;演示效果：&lt;a class=&#34;link&#34; href=&#34;http://www.baidu.com&#34;  title=&#34;一个搜索引擎&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;百度&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;引用链接&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;描述：同个链接多次使用&lt;/li&gt;
+&lt;li&gt;使用：
+&lt;ul&gt;
+&lt;li&gt;文内：&lt;code&gt;[百度][id]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;链接描述：&lt;code&gt;[id]:http://www.baidu.com &amp;quot;一个搜索引擎&amp;quot;&lt;/code&gt;，不在文内显示&lt;/li&gt;
+&lt;li&gt;演示效果：&lt;a class=&#34;link&#34; href=&#34;http://www.baidu.com&#34;  title=&#34;一个搜索引擎&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;百度&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;链接到标题&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;描述：可以实现点击跳转&lt;/li&gt;
+&lt;li&gt;使用：暂时没弄懂&lt;/li&gt;
+&lt;li&gt;演示效果：无&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URL&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;描述：使用网址时，以http或https头，可直接显示为链接，在文内时用空格分隔&lt;/li&gt;
+&lt;li&gt;演示效果： &lt;a class=&#34;link&#34; href=&#34;http://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.baidu.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图片&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;描述：可以添加图片&lt;/li&gt;
+&lt;li&gt;使用：&lt;code&gt;![替代文本](图片链接 &amp;quot;可选，图片标题文本&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;问题：hugo中怎么使用图片，markdown文档内的效果是使用href进行跳转的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;目前问题&#34;&gt;目前问题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;部分markdown语法在不同的编辑器中使用不了&lt;/li&gt;
+&lt;li&gt;md文件通过hugo快速生成博客时，部分语法无法直接生效&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown快速入门：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1JA411h7Gw&#34;  title=&#34;一个哔哩哔哩的视频链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;8分钟让你快速掌握Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>快速使用：CMD基础操作</title>
+        <link>https://farfar90.github.io/post/ql_cmd/</link>
+        <pubDate>Tue, 07 Jun 2022 16:48:11 +0800</pubDate>
+        
+        <guid>https://farfar90.github.io/post/ql_cmd/</guid>
+        <description>&lt;h2 id=&#34;cmd学习&#34;&gt;cmd学习&lt;/h2&gt;
+&lt;p&gt;没有成体系，仅记录一些目前学习中遇到的命令&lt;/p&gt;
+&lt;h3 id=&#34;cd&#34;&gt;cd&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;同级目录下&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;移动到目录下的某一文件夹：cd [文件名称（无关大小写）]&lt;/li&gt;
+&lt;li&gt;移动到目录下多级文件夹：cd [文件名称]\[文件名称]\···&lt;/li&gt;
+&lt;li&gt;向上退一级目录：cd..&lt;/li&gt;
+&lt;li&gt;向上退两级目录：cd../..&lt;/li&gt;
+&lt;li&gt;移动至根目录：cd/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不同级目录&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;移动到其他父目录的文件夹：cd /d [盘符：]&lt;/li&gt;
+&lt;li&gt;移动到其他父目录的文件夹：cd /d [盘符：]\[文件名称]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>序言：个人博客的第一步</title>
         <link>https://farfar90.github.io/post/myfirstblog/</link>
         <pubDate>Fri, 03 Jun 2022 13:11:45 +0800</pubDate>
